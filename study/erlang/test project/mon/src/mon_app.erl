@@ -36,7 +36,7 @@
   {ok, pid(), State :: term()} |
   {error, Reason :: term()}).
 start(_StartType, _StartArgs) ->
-  case 'mon_sup':start_link() of
+  case mon_sup:start_link() of
     {ok, Pid} ->
       io:format("start ok~n"),
       {ok, Pid};
