@@ -6,3 +6,5 @@ git add
 git commit -m "message"
 git remote add origin https://github.com/assabug/anbee.git
 git push origin -u master
+
+git clone https://github.com/assabug/anbee.git
