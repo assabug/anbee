@@ -9,5 +9,5 @@ git push origin -u master
 
 git clone https://github.com/assabug/anbee.git //원격저장소에서 로컬로 (export)
 
-git fatch origin
-git pull origin //원격저장소 내용 업데이트
+git fetch origin //원격저장소 내용 업데이트(최신이력 확인하여 가져옴)
+git pull origin //원격저장소 내용 업데이트(자동 병합/충돌 발생 할 수 있다)
